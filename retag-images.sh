@@ -55,6 +55,10 @@ while read image; do
     echo "Sync FAILED: $new_image"
   fi
   
+  docker image rm "$new_image"
+  docker image rm "$image"
+  docker image prune -f
+  
   echo "::endgroup::"
   
 done < "$image_list"
