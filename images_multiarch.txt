@@ -1,6 +1,7 @@
 // docker log utils
-devforth/onlogs
+portainer/portainer-ce:2.19.5
 !! below skip
+devforth/onlogs
 amir20/dozzle:latest
 // apache
 apache/airflow:2.9.3
