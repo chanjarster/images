@@ -25,7 +25,11 @@ while read image; do
   if [[ "$image" == //* ]]; then
     continue
   fi
-
+  # 遇到 !! 就停止
+  if [[ "$image" == !!* ]]; then
+    break
+  fi
+  
   new_image="$registry"/library/"$image"
 
   # group log

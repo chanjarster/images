@@ -24,6 +24,10 @@ while read image; do
   if [[ "$image" == //* ]]; then
     continue
   fi
+  # 遇到 !! 就停止
+  if [[ "$image" == !!* ]]; then
+    break
+  fi
 
   # group log
   # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#grouping-log-lines
