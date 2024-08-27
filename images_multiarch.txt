@@ -1,8 +1,7 @@
 // docker log utils
 devforth/onlogs
-!! ^^ 2024-08-27 2
+!! below skip
 amir20/dozzle:latest
-!! ^^ 2024-08-27 1
 // apache
 apache/airflow:2.9.3
 // rancher
