@@ -1,6 +1,9 @@
+// for dataease
+wojiushixiaobai/dataease
+mariadb:10.6
+!! 2024-09-04 below skip
 // docker log utils
 portainer/portainer-ce:2.19.5
-!! below skip
 devforth/onlogs
 amir20/dozzle:latest
 // apache
