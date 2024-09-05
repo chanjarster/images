@@ -1,3 +1,6 @@
+// for golang
+golang:1.14-alpine
+!! 2024-09-05 below skip
 // for dataease
 wojiushixiaobai/dataease
 mariadb:10.6
