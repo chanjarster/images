@@ -1,4 +1,8 @@
-!! below skip
+// for elk
+docker.elastic.co/logstash/logstash:7.8.0
+docker.elastic.co/logstash/logstash-oss:7.8.0
+bitnami/logstash:7.8.0
+!! 2024-09-11 below skip
 // minio
 minio/minio:RELEASE.2020-08-08T04-50-06Z
 // mysql

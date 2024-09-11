@@ -1,3 +1,12 @@
+// for elk
+docker.elastic.co/logstash/logstash:7.17.0
+docker.elastic.co/logstash/logstash-oss:7.17.0
+bitnami/logstash:7.17.0
+!! 2024-09-11 below skip
+docker.elastic.co/logstash/logstash:8.15.1
+docker.elastic.co/logstash/logstash-oss:8.15.1
+bitnami/logstash:8.15.1
+!! 2024-09-11 below skip
 // for golang
 golang:1.14-alpine
 !! 2024-09-05 below skip
