@@ -1,3 +1,9 @@
+// for prom
+bitnami/node-exporter:latest
+bitnami/kafka-exporter:latest
+oliver006/redis_exporter:latest
+percona/mongodb_exporter:0.34
+!! 2024-09-12 below skip
 // for elk
 docker.elastic.co/logstash/logstash:7.17.0
 docker.elastic.co/logstash/logstash-oss:7.17.0
