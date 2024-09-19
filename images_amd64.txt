@@ -1,3 +1,7 @@
+// for bitnami/redis
+bitnami/redis-sentinel:5.0.8-debian-10-r25
+bitnami/redis-exporter:1.5.2-debian-10-r21
+!! 2024-09-19 below skip
 // for prom
 google/cadvisor:latest
 !! 2024-09-12 below skip

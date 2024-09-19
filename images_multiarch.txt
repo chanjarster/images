@@ -1,3 +1,6 @@
+// for bitnami/redis
+bitnami/minideb:buster
+!! 2024-09-19 below skip
 // for prom
 bitnami/node-exporter:latest
 bitnami/kafka-exporter:latest
