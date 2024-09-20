@@ -1,3 +1,6 @@
+// for node
+node:14.18.2
+!! 2024-09-20 below skip
 // for bitnami/redis
 bitnami/minideb:buster
 !! 2024-09-19 below skip
