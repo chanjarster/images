@@ -1,10 +1,21 @@
+// for percona
+percona/percona-xtrabackup:latest
+percona/percona-xtrabackup:8.4
+percona/percona-xtrabackup:8.3
+percona/percona-xtrabackup:8.2
+percona/percona-xtrabackup:8.1
+percona/percona-xtrabackup:8.0
+!! 2024-09-24 skip below
+
 // for bitnami/redis
 bitnami/redis-sentinel:5.0.8-debian-10-r25
 bitnami/redis-exporter:1.5.2-debian-10-r21
 !! 2024-09-19 below skip
+
 // for prom
 google/cadvisor:latest
 !! 2024-09-12 below skip
+
 // for elk
 docker.elastic.co/logstash/logstash:7.8.0
 docker.elastic.co/logstash/logstash-oss:7.8.0
