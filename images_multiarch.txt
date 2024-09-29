@@ -1,3 +1,6 @@
+frooodle/s-pdf:0.29.0
+!! 2024-09-29 below skip
+
 // for node
 node:14.18.2
 !! 2024-09-20 below skip
