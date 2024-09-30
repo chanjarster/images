@@ -1,3 +1,10 @@
+# openresty
+openresty/openresty:jammy
+openresty/openresty:bullseye
+openresty/openresty:alpine
+!! 2024-09-30 below skip
+
+#
 frooodle/s-pdf:0.29.0
 !! 2024-09-29 below skip
 
