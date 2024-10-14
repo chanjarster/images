@@ -1,7 +1,9 @@
-// for
+// for rancher
+rancher/rancher-webhook:v0.2.2
+!! 2024-10-07 skip below
 ranchercharts/bitnami-mongodb:4.0.12-debian-9-r5
 ranchercharts/bitnami-mongodb-exporter:0.8.0-debian-9-r4
-!! 2024-10-07 skip below
+
 
 // for percona
 percona/percona-xtrabackup:latest
