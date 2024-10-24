@@ -1,3 +1,6 @@
+rancher/shell:v0.1.6
+!! 2024-10-24 below skip
+
 docker.elastic.co/logstash/logstash-oss:7.17.24
 !! 2024-10-07 below skip
 
