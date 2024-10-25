@@ -1,3 +1,9 @@
+rancher/rancher-webhook:v0.1.6
+rancher/fleet:v0.3.10-security1 
+rancher/gitjob:v0.1.26-security1
+rancher/rancher-operator:v0.1.5  
+!! 2024-10-25 below skip
+
 rancher/shell:v0.1.6
 !! 2024-10-24 below skip
 
