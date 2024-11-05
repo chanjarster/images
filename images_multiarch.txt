@@ -1,3 +1,6 @@
+openresty/openresty:alpine-fat
+!! 2024-11-05 below skip
+
 rancher/rancher-webhook:v0.1.6
 rancher/fleet:v0.3.10-security1 
 rancher/gitjob:v0.1.26-security1
