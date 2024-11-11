@@ -1,3 +1,6 @@
+minio/minio:RELEASE.2020-04-23T00-58-49Z
+!! 2024-11-11 below skip
+
 quay.io/minio/minio:RELEASE.2023-03-24T21-41-23Z
 !! 2024-11-08 below skip
 
