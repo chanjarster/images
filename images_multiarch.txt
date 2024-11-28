@@ -1,3 +1,5 @@
+rancher/coreos-flannel:v0.13.0-rancher1
+!! 2024-11-28 below skip
 docker.elastic.co/logstash/logstash-oss:7.17.25
 docker.elastic.co/beats/filebeat-oss:7.17.25
 docker.elastic.co/elasticsearch/elasticsearch:7.17.25
