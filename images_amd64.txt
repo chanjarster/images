@@ -1,3 +1,11 @@
+goharbor/trivy-adapter-photon:v2.5.6
+!! 2024-11-28 skip below
+goharbor/trivy-adapter-photon:v2.6.4
+goharbor/trivy-adapter-photon:v2.7.4
+goharbor/trivy-adapter-photon:v2.8.6
+goharbor/trivy-adapter-photon:v2.9.5
+goharbor/trivy-adapter-photon:v2.10.3
+goharbor/trivy-adapter-photon:v2.11.2
 !! 2024-11-07 skip below
 // for rancher
 rancher/rancher-webhook:v0.2.2
