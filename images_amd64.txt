@@ -1,3 +1,9 @@
+// openjdk
+eclipse-temurin:17-alpine
+eclipse-temurin:17-jre-alpine
+eclipse-temurin:8-alpine
+eclipse-temurin:8-jre-alpine
+!! 2024-12-09 below skip
 goharbor/trivy-adapter-photon:v2.5.6
 !! 2024-11-28 skip below
 goharbor/trivy-adapter-photon:v2.6.4

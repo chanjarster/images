@@ -1,8 +1,9 @@
 // openjdk
+eclipse-temurin:17
+eclipse-temurin:17-jre
 eclipse-temurin:8
-eclipse-temurin:8-alpine
 eclipse-temurin:8-jre
-eclipse-temurin:8-alpine
+!! 2024-12-09 below skip
 openjdk:8
 openjdk:8-slim
 openjdk:8-alpine
