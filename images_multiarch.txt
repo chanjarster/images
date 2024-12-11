@@ -1,3 +1,5 @@
+// buildx
+moby/buildkit:buildx-stable-1
 !! 2024-12-10 below skip
 // openjdk
 eclipse-temurin:17
@@ -131,8 +133,6 @@ nginx:latest
 rabbitmq:3.8-management-alpine
 bitnami/redis:5.0.8-debian-10-r33
 groundhog2k/nfs-subdir-external-provisioner:v3.2.0
-// buildx
-moby/buildkit:buildx-stable-1
 // ubuntu
 ubuntu:bionic
 // python
