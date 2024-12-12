@@ -1,3 +1,13 @@
+// nginx
+nginx:1.21.5-alpine
+nginx:alpine
+nginx:stable-alpine
+nginx:1.19
+nginx:1.19.0
+nginx:1.17.5
+nginxinc/nginx-unprivileged:1.24-alpine
+nginx:latest
+!! 2024-12-12 below skip
 // alpine
 alpine:latest
 alpine:3.19
@@ -194,14 +204,6 @@ golang:1.22-alpine
 grafana/grafana:7.0.5
 grafana/grafana:9.1.0
 grafana/mimir:2.9.0
-// nginx
-nginx:1.21.5-alpine
-nginx:alpine
-nginx:stable-alpine
-nginx:1.19
-nginx:1.19.0
-nginx:1.17.5
-nginxinc/nginx-unprivileged:1.24-alpine
 // minio
 quay.io/minio/mc:RELEASE.2023-09-04T19-57-37Z
 quay.io/minio/minio:RELEASE.2023-09-04T19-57-37Z
