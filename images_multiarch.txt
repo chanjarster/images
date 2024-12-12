@@ -1,3 +1,14 @@
+// tomcat
+tomcat:7
+tomcat:7-jre8-slim
+tomcat:8.5-jre8
+tomcat:8.5-jdk8
+tomcat:8.5-jre8-alpine
+tomcat:8.5-jre8-openjdk-slim
+tomcat:9-jre11
+tomcat:9-alpine
+tomcat:9-jre11-openjdk-slim
+!! 2024-12-12 below skip  
 // nginx
 nginx:1.21.5-alpine
 nginx:alpine
@@ -214,14 +225,4 @@ minio/mc:RELEASE.2022-12-13T00-23-28Z
 prom/mysqld-exporter:latest
 prom/node-exporter:latest
 prom/blackbox-exporter:latest
-// tomcat
-tomcat:7
-tomcat:7-jre8-slim
-tomcat:8.5-jre8
-tomcat:8.5-jdk8
-tomcat:8.5-jre8-alpine
-tomcat:8.5-jre8-openjdk-slim
-tomcat:9-jre11
-tomcat:9-alpine
-tomcat:9-jre11-openjdk-slim
 // end of file
