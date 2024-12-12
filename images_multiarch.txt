@@ -1,3 +1,9 @@
+// alpine
+alpine:latest
+alpine:3.19
+alpine:3.17
+alpine:3.15
+!! 2024-12-12 below skip
 // openjdk
 amazoncorretto:8
 amazoncorretto:8-alpine
@@ -206,11 +212,6 @@ minio/mc:RELEASE.2022-12-13T00-23-28Z
 prom/mysqld-exporter:latest
 prom/node-exporter:latest
 prom/blackbox-exporter:latest
-// alpine
-alpine:latest
-alpine:3.19
-alpine:3.17
-alpine:3.15
 // tomcat
 tomcat:7
 tomcat:7-jre8-slim
