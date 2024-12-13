@@ -1,3 +1,5 @@
+rancher/flannel-cni:v0.3.0-rancher6
+!! 2024-12-13 below skip  
 // tomcat
 tomcat:7
 tomcat:7-jre8-slim
