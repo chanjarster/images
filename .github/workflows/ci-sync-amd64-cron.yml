@@ -1,0 +1,36 @@
+name: Sync Images(amd64 only cronjob)
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  schedule:
+  - cron: "0 18 * * 2"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+
+  sync_images:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+        
+      - name: Login Harbor
+        uses: docker/login-action@v3.2.0
+        with:
+          registry: ${{ secrets.HARBOR_URL }}
+          username: ${{ secrets.HARBOR_COMMON_USERNAME }}
+          password: ${{ secrets.HARBOR_COMMON_PASSWORD }}
+
+      - name: Retag amd64 images 1
+        run: ./retag-images.sh images_multiarch_cron.txt ${{ secrets.HARBOR_URL }}
+
+      - name: Retag amd64 images 2
+        run: ./retag-images.sh images_amd64_cron.txt ${{ secrets.HARBOR_URL }}

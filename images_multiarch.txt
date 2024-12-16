@@ -1,5 +1,13 @@
+!! 2024-12-16 below skip  
 rancher/flannel-cni:v0.3.0-rancher6
 !! 2024-12-13 below skip  
+// nginx
+nginx:1.21.5-alpine
+nginx:1.19
+nginx:1.19.0
+nginx:1.17.5
+nginxinc/nginx-unprivileged:1.24-alpine
+!! 2024-12-12 below skip
 // tomcat
 tomcat:7
 tomcat:7-jre8-slim
@@ -7,41 +15,13 @@ tomcat:8.5-jre8
 tomcat:8.5-jdk8
 tomcat:8.5-jre8-alpine
 tomcat:8.5-jre8-openjdk-slim
-tomcat:9-jre11
 tomcat:9-alpine
 tomcat:9-jre11-openjdk-slim
-!! 2024-12-12 below skip  
-// nginx
-nginx:1.21.5-alpine
-nginx:alpine
-nginx:stable-alpine
-nginx:1.19
-nginx:1.19.0
-nginx:1.17.5
-nginxinc/nginx-unprivileged:1.24-alpine
-nginx:latest
-!! 2024-12-12 below skip
 // alpine
-alpine:latest
 alpine:3.19
 alpine:3.17
 alpine:3.15
 !! 2024-12-12 below skip
-// openjdk
-amazoncorretto:8
-amazoncorretto:8-alpine
-amazoncorretto:8-alpine-jre
-amazoncorretto:17-alpine
-!! 2024-12-11 below skip
-// buildx
-moby/buildkit:buildx-stable-1
-!! 2024-12-10 below skip
-// openjdk
-eclipse-temurin:17
-eclipse-temurin:17-jre
-eclipse-temurin:8
-eclipse-temurin:8-jre
-!! 2024-12-09 below skip
 openjdk:8
 openjdk:8-slim
 openjdk:8-alpine
@@ -87,13 +67,6 @@ docker.elastic.co/logstash/logstash-oss:7.17.24
 adminer:4
 !! 2024-10-07 below skip
 
-# openresty
-openresty/openresty:jammy
-openresty/openresty:bullseye
-openresty/openresty:alpine
-!! 2024-09-30 below skip
-
-#
 frooodle/s-pdf:0.29.0
 !! 2024-09-29 below skip
 
