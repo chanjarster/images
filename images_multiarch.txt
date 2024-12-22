@@ -1,5 +1,7 @@
+nicolaka/netshoot:latest
+!! 2024-12-22 below skip
 tomcat:9.0.98-jdk8
-!! 2024-12-16 below skip  
+!! 2024-12-16 below skip
 rancher/flannel-cni:v0.3.0-rancher6
 !! 2024-12-13 below skip  
 // nginx
