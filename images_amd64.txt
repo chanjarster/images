@@ -1,3 +1,11 @@
+rancher/istio-kubectl:1.1.5
+rancher/nginx:1.17.4-alpine
+rancher/coreos-configmap-reload:v0.0.1
+rancher/grafana-grafana:6.7.4
+rancher/coreos-prometheus-config-reloader:v0.38.1
+inanimate/echo-server:latest
+rancher/prom-prometheus:v2.17.2
+rancher/prometheus-auth:v0.2.0
 !! 2024-12-09 below skip
 goharbor/trivy-adapter-photon:v2.5.6
 !! 2024-11-28 skip below
