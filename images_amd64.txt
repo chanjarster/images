@@ -1,3 +1,5 @@
+perconalab/percona-toolkit:latest
+!! 2025-01-01 below skip
 rancher/istio-kubectl:1.1.5
 rancher/nginx:1.17.4-alpine
 rancher/coreos-configmap-reload:v0.0.1
