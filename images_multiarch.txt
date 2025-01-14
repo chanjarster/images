@@ -1,3 +1,5 @@
+bitnami/redis:7.4.2
+!! 2025-01-14 below skip
 redis:7.4.2
 redis:7.4.2-alpine
 redis:6.2.17
