@@ -1,11 +1,10 @@
 redis:7.4.2
 redis:7.4.2-alpine
-!! 2025-01-14 below skip
 redis:6.2.17
 redis:6.2.17-alpine
 redis:7.2.7
 redis:7.2.7-alpine
-!! 2025-01-01 below skip
+!! 2025-01-14 below skip
 nicolaka/netshoot:latest
 !! 2024-12-22 below skip
 tomcat:9.0.98-jdk8
