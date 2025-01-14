@@ -27,7 +27,7 @@ alpine:latest
 amazoncorretto:8
 amazoncorretto:8-alpine
 amazoncorretto:8-alpine-jre
-amazoncorretto:17-alpine
+// amazoncorretto:17-alpine
 // buildx
 moby/buildkit:buildx-stable-1
 // openresty
