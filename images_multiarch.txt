@@ -1,5 +1,15 @@
-bitnami/redis:7.4.2
+// openjdk - dragonwell
+alibabadragonwell/dragonwell:21
+// openjdk - amazon-corretto
+amazoncorretto:21-alpine
+amazoncorretto:21
+// openjdk - eclipse-temurin
+eclipse-temurin:21-alpine
+eclipse-temurin:21-jre-alpine
+eclipse-temurin:21
+eclipse-temurin:21-jre
 !! 2025-01-14 below skip
+bitnami/redis:7.4.2
 redis:7.4.2
 redis:7.4.2-alpine
 redis:6.2.17

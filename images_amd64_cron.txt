@@ -1,5 +1,5 @@
 // openjdk
-eclipse-temurin:17-alpine
-eclipse-temurin:17-jre-alpine
+// eclipse-temurin:17-alpine
+// eclipse-temurin:17-jre-alpine
 eclipse-temurin:8-alpine
 eclipse-temurin:8-jre-alpine

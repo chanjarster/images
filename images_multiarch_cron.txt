@@ -1,6 +1,15 @@
+// openjdk - dragonwell
+alibabadragonwell/dragonwell:21
+// openjdk - amazon-corretto
+amazoncorretto:21-alpine
+amazoncorretto:21
 // openjdk - eclipse-temurin
-eclipse-temurin:17
-eclipse-temurin:17-jre
+eclipse-temurin:21-alpine
+eclipse-temurin:21-jre-alpine
+eclipse-temurin:21
+eclipse-temurin:21-jre
+// eclipse-temurin:17
+// eclipse-temurin:17-jre
 eclipse-temurin:8
 eclipse-temurin:8-jre
 // tomcat
