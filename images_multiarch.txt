@@ -1,3 +1,4 @@
+redis:7.2.7
 !! 2025-01-01 below skip
 nicolaka/netshoot:latest
 !! 2024-12-22 below skip
