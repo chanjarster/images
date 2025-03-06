@@ -1,3 +1,5 @@
+rabbitmq:management
+!! 2025-03-06 below skip
 apereo/cas:latest
 !! 2025-01-14 below skip
 // openjdk - dragonwell

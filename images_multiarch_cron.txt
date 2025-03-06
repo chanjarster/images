@@ -1,3 +1,6 @@
+// rabbitmq
+rabbitmq:management
+rabbitmq:3.8-management-alpine
 // openjdk - dragonwell
 alibabadragonwell/dragonwell:21
 // openjdk - amazon-corretto
