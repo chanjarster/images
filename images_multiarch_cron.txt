@@ -1,3 +1,5 @@
+// dev toolkits
+ihmily/image-matting:latest
 corentinth/it-tools:latest
 // rabbitmq
 rabbitmq:management
