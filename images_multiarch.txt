@@ -1,3 +1,6 @@
+// dev toolkits
+corentinth/it-tools:latest
+!! 2025-03-19 skip below
 // dify v1.0.1
 langgenius/dify-api:1.0.1
 langgenius/dify-plugin-daemon:0.0.4-local
