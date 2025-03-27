@@ -1,3 +1,10 @@
+// dify v1.1.3
+langgenius/dify-api:1.1.3
+langgenius/dify-plugin-daemon:0.0.6-local
+langgenius/dify-web:1.1.3
+langgenius/dify-sandbox:0.2.11
+opengauss/opengauss:7.0.0-RC1
+!! 2025-03-27 skip below
 // dev toolkits
 ihmily/image-matting:latest
 corentinth/it-tools:latest
