@@ -1,3 +1,9 @@
+// python
+python:3.10-alpine
+python:3.10-slim
+python:3.10-bookworm
+python:3.10-bullseye
+bitnami/python:3.10
 // dify v1.1.3
 langgenius/dify-api:1.1.3
 langgenius/dify-plugin-daemon:0.0.6-local
