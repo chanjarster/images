@@ -1,3 +1,6 @@
+golang:1.23
+golang:1.23-alpine
+!! 2025-05-15 skip below
 // k8s-nfs-provider
 groundhog2k/nfs-subdir-external-provisioner:v3.2.0
 !! 2025-05-06 skip below
