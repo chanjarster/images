@@ -1,3 +1,4 @@
+rancher/nginx-ingress-controller:nginx-0.43.0-rancher3
 !! 2025-01-14 below skip
 perconalab/percona-toolkit:latest
 !! 2025-01-01 below skip
