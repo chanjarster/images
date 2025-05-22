@@ -1,6 +1,5 @@
 // debian
 debian:bookworm-slim
-!! 2025-04-24 skip below
 // python
 python:3.10-alpine
 python:3.10-slim
