@@ -1,3 +1,5 @@
+lhstack/small-dns:3.0.0
+|| 2025-06-16 below skip
 rancher/nginx-ingress-controller:nginx-0.43.0-rancher3
 !! 2025-01-14 below skip
 perconalab/percona-toolkit:latest
