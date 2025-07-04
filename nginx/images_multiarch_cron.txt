@@ -1,0 +1,4 @@
+// nginx
+nginx:alpine
+nginx:stable-alpine
+nginx:latest

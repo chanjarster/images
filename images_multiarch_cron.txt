@@ -31,10 +31,6 @@ tomcat:9-jre11
 tomcat:9-jdk11
 tomcat:9-jdk17
 tomcat:9-jre17
-// nginx
-nginx:alpine
-nginx:stable-alpine
-nginx:latest
 // alpine
 alpine:latest
 // openjdk - amazoncorretto

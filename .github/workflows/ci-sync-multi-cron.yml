@@ -32,6 +32,9 @@ jobs:
           username: ${{ secrets.HARBOR_COMMON_USERNAME }}
           password: ${{ secrets.HARBOR_COMMON_PASSWORD }}
 
+      - name: Retag & Push nginx multiarch images
+        run: cd ./nginx; ./retag-images-multiarch.sh images_multiarch_cron.txt ${{ secrets.HARBOR2_URL }}
+
       - name: Retag & Push multiarch images
         run: ./retag-images-multiarch.sh images_multiarch_cron.txt ${{ secrets.HARBOR2_URL }}
 
