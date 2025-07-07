@@ -32,11 +32,14 @@ jobs:
           username: ${{ secrets.HARBOR_COMMON_USERNAME }}
           password: ${{ secrets.HARBOR_COMMON_PASSWORD }}
 
-      - name: Retag & Push nginx multiarch images
+      - name: Sync nginx multiarch images
         run: cd ./nginx; ./retag-images-multiarch.sh images_multiarch_cron.txt ${{ secrets.HARBOR2_URL }}
 
-      - name: Retag & Push multiarch images
-        run: ./retag-images-multiarch.sh images_multiarch_cron.txt ${{ secrets.HARBOR2_URL }}
+      - name: Sync vul multiarch images
+        run: ./retag-images-multiarch.sh vul/images_multiarch_cron.txt vul ${{ secrets.HARBOR2_URL }}
+
+      - name: Sync library multiarch images
+        run: ./retag-images-multiarch.sh library/images_multiarch_cron.txt library ${{ secrets.HARBOR2_URL }}
 
   sync_amd64:
 
@@ -52,6 +55,9 @@ jobs:
           username: ${{ secrets.HARBOR_COMMON_USERNAME }}
           password: ${{ secrets.HARBOR_COMMON_PASSWORD }}
 
-      - name: Retag & Push amd64 images
-        run: ./retag-images.sh images_amd64_cron.txt ${{ secrets.HARBOR2_URL }}
+      - name: Sync vul amd64 images
+        run: ./retag-images.sh vul/images_amd64_cron.txt vul ${{ secrets.HARBOR2_URL }}
+
+      - name: Sync library amd64 images
+        run: ./retag-images.sh library/images_amd64_cron.txt library ${{ secrets.HARBOR2_URL }}
 

@@ -31,8 +31,11 @@ jobs:
           username: ${{ secrets.HARBOR_COMMON_USERNAME }}
           password: ${{ secrets.HARBOR_COMMON_PASSWORD }}
 
-      - name: Retag amd64 images 1
-        run: ./retag-images.sh images_multiarch.txt ${{ secrets.HARBOR_URL }}
+      - name: Sync vul images 1
+        run: ./retag-images.sh vul/images_multiarch.txt vul ${{ secrets.HARBOR_URL }}
 
-      - name: Retag amd64 images 2
-        run: ./retag-images.sh images_amd64.txt ${{ secrets.HARBOR_URL }}
+      - name: Sync library images 1
+        run: ./retag-images.sh library/images_multiarch.txt library ${{ secrets.HARBOR_URL }}
+
+      - name: Sync library images 2
+        run: ./retag-images.sh library/images_amd64.txt library ${{ secrets.HARBOR_URL }}

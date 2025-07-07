@@ -34,8 +34,11 @@ jobs:
           username: ${{ secrets.HARBOR_COMMON_USERNAME }}
           password: ${{ secrets.HARBOR_COMMON_PASSWORD }}
 
-      - name: Retag & Push multiarch images
-        run: ./retag-images-multiarch.sh images_multiarch.txt ${{ secrets.HARBOR2_URL }}
+      - name: Sync vul multiarch images
+        run: ./retag-images-multiarch.sh vul/images_multiarch.txt vul ${{ secrets.HARBOR2_URL }}
+
+      - name: Sync library multiarch images
+        run: ./retag-images-multiarch.sh library/images_multiarch.txt library ${{ secrets.HARBOR2_URL }}
 
   sync_amd64:
 
@@ -51,6 +54,9 @@ jobs:
           username: ${{ secrets.HARBOR_COMMON_USERNAME }}
           password: ${{ secrets.HARBOR_COMMON_PASSWORD }}
 
-      - name: Retag & Push amd64 images
-        run: ./retag-images.sh images_amd64.txt ${{ secrets.HARBOR2_URL }}
+      - name: Sync vul amd64 images
+        run: ./retag-images.sh vul/images_amd64.txt vul ${{ secrets.HARBOR2_URL }}
+
+      - name: Sync library amd64 images
+        run: ./retag-images.sh library/images_amd64.txt library ${{ secrets.HARBOR2_URL }}
 
