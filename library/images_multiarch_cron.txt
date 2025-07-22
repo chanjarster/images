@@ -1,3 +1,5 @@
+// vaultwarden
+vaultwarden/server:latest
 // debian
 debian:bookworm-slim
 // python
