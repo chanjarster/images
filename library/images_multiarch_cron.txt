@@ -1,8 +1,9 @@
 // vaultwarden
-vaultwarden/server:latest
+// vaultwarden/server:latest
 // debian
 debian:bookworm-slim
 // python
+python:3.12-slim
 python:3.10-alpine
 python:3.10-slim
 python:3.10-bookworm
