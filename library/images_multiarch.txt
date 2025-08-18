@@ -1,3 +1,7 @@
+nacos/nacos-server:v2.3.0-slim
+nacos/nacos-server:v2.0.4-slim
+nacos/nacos-server:v2.4.2-slim
+!! 2025-08-18 skip below
 python:3.12-slim
 !! 2025-08-13 skip below
 apache/seatunnel:2.3.11
