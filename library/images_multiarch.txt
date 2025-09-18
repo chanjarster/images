@@ -1,3 +1,6 @@
+hengyunabc/arthas:4.0.5
+hengyunabc/arthas:latest
+!! 2025-09-18 skip below
 nacos/nacos-server:v2.3.0-slim
 nacos/nacos-server:v2.0.4-slim
 nacos/nacos-server:v2.4.2-slim
