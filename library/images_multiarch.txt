@@ -1,3 +1,5 @@
+node:20.19.0
+!! 2025-11-05 skip below
 hengyunabc/arthas:4.0.5
 hengyunabc/arthas:latest
 !! 2025-09-18 skip below
