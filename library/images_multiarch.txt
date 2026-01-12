@@ -1,3 +1,5 @@
+mongo:5.0.32
+!! 2026-01-12 skip below
 node:20.19.0
 !! 2025-11-05 skip below
 hengyunabc/arthas:4.0.5
