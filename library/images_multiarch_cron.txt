@@ -1,3 +1,4 @@
+ghcr.io/openclaw/openclaw:latest
 hengyunabc/arthas:latest
 // vaultwarden
 // vaultwarden/server:latest
