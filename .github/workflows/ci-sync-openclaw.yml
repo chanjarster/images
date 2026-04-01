@@ -1,0 +1,97 @@
+name: Sync OpenClaw Sandbox Images
+
+on:
+  workflow_dispatch:
+
+env:
+  SANDBOX_IMAGE: openclaw-sandbox:bookworm-slim
+  SANDBOX_COMMON_IMAGE: openclaw-sandbox-common:bookworm-slim
+  SANDBOX_BROWSER_IMAGE: openclaw-sandbox-browser:bookworm-slim
+
+jobs:
+
+  sync_images_arm64:
+
+    runs-on: ubuntu-24.04-arm
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+
+      - name: Git Clone Action
+        uses: sudosubin/git-clone-action@v1.0.1
+        with:
+          repository: openclaw/openclaw
+          path: openclaw
+
+      - name: Login Harbor
+        uses: docker/login-action@v3.2.0
+        with:
+          registry: ${{ secrets.HARBOR2_URL }}
+          username: ${{ secrets.HARBOR_COMMON_USERNAME }}
+          password: ${{ secrets.HARBOR_COMMON_PASSWORD }}
+
+      - name: Build sandbox
+        run: |
+          cd openclaw
+          ./scripts/sandbox-setup.sh
+          docker tag $SANDBOX_IMAGE harbor2.supwisdom.com/library/$SANDBOX_IMAGE-arm64
+          docker push harbor2.supwisdom.com/library/$SANDBOX_IMAGE-arm64
+
+      - name: Build sandbox-common
+        run: |
+          cd openclaw
+          ./scripts/sandbox-common-setup.sh
+          docker tag $SANDBOX_COMMON_IMAGE harbor2.supwisdom.com/library/$SANDBOX_COMMON_IMAGE-arm64
+          docker push harbor2.supwisdom.com/library/$SANDBOX_COMMON_IMAGE-arm64
+
+      - name: Build sandbox-browser
+        run: |
+          cd openclaw
+          ./scripts/sandbox-browser-setup.sh
+          docker tag $SANDBOX_BROWSER_IMAGE harbor2.supwisdom.com/library/$SANDBOX_BROWSER_IMAGE-arm64
+          docker push harbor2.supwisdom.com/library/$SANDBOX_BROWSER_IMAGE-arm64
+
+  sync_images_amd64:
+
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+
+      - name: Git Clone Action
+        uses: sudosubin/git-clone-action@v1.0.1
+        with:
+          repository: openclaw/openclaw
+          path: openclaw
+
+      - name: Login Harbor
+        uses: docker/login-action@v3.2.0
+        with:
+          registry: ${{ secrets.HARBOR2_URL }}
+          username: ${{ secrets.HARBOR_COMMON_USERNAME }}
+          password: ${{ secrets.HARBOR_COMMON_PASSWORD }}
+
+      - name: Build sandbox
+        run: |
+          cd openclaw
+          ./scripts/sandbox-setup.sh
+          docker tag $SANDBOX_IMAGE harbor2.supwisdom.com/library/$SANDBOX_IMAGE-amd64
+          docker push harbor2.supwisdom.com/library/$SANDBOX_IMAGE-amd64
+
+      - name: Build sandbox-common
+        run: |
+          cd openclaw
+          ./scripts/sandbox-common-setup.sh
+          docker tag $SANDBOX_COMMON_IMAGE harbor2.supwisdom.com/library/$SANDBOX_COMMON_IMAGE-amd64
+          docker push harbor2.supwisdom.com/library/$SANDBOX_COMMON_IMAGE-amd64
+
+      - name: Build sandbox-browser
+        run: |
+          cd openclaw
+          ./scripts/sandbox-browser-setup.sh
+          docker tag $SANDBOX_BROWSER_IMAGE harbor2.supwisdom.com/library/$SANDBOX_BROWSER_IMAGE-amd64
+          docker push harbor2.supwisdom.com/library/$SANDBOX_BROWSER_IMAGE-amd64
