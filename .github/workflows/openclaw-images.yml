@@ -42,7 +42,7 @@ jobs:
         run: |
           cd openclaw
           IMAGE_ID=${{ env.REGISTRY }}/${{ env.REPO_OWNER }}/${{ env.OPENCLAW_IMAGE }}-${{ env.variant }}
-          docker build \
+          DOCKER_BUILDKIT=1 docker build \
           --build-arg "OPENCLAW_DOCKER_APT_PACKAGES=" \
           --build-arg "OPENCLAW_EXTENSIONS=" \
           --build-arg "OPENCLAW_INSTALL_DOCKER_CLI=1" \
@@ -103,7 +103,7 @@ jobs:
         run: |
           cd openclaw
           IMAGE_ID=${{ env.REGISTRY }}/${{ env.REPO_OWNER }}/${{ env.OPENCLAW_IMAGE }}-${{ env.variant }}
-          docker build \
+          DOCKER_BUILDKIT=1 docker build \
           --build-arg "OPENCLAW_DOCKER_APT_PACKAGES=" \
           --build-arg "OPENCLAW_EXTENSIONS=" \
           --build-arg "OPENCLAW_INSTALL_DOCKER_CLI=1" \
