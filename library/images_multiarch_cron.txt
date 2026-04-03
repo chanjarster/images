@@ -1,3 +1,7 @@
+docker/dockerfile:1.7
+node:24-bookworm-slim
+node:24-bookworm
+debian:bookworm-slim
 ghcr.io/openclaw/openclaw:latest
 hengyunabc/arthas:latest
 // vaultwarden
