@@ -1,3 +1,5 @@
+docker/dockerfile:1.7
+!! 2026-04-03 skip below
 ghcr.io/openclaw/openclaw:latest
 !! 2026-04-01 skip below
 mongo:5.0.32
