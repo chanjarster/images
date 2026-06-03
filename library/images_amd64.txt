@@ -1,3 +1,5 @@
+tonistiigi/binfmt
+!! 2026-06-03 below skip
 multiarch/qemu-user-static:register
 multiarch/qemu-user-static:latest
 !! 2026-06-03 below skip
