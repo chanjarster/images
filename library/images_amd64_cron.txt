@@ -1,4 +1,5 @@
 multiarch/qemu-user-static:register
+multiarch/qemu-user-static:latest
 // openjdk
 // eclipse-temurin:17-alpine
 // eclipse-temurin:17-jre-alpine
