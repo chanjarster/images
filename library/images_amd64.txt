@@ -1,3 +1,5 @@
+multiarch/qemu-user-static:register
+!! 2026-06-03 below skip
 tomcat:10.1.44
 tomcat:9.0.108
 !! 2025-08-13 below skip
