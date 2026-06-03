@@ -1,3 +1,4 @@
+tonistiigi/binfmt
 multiarch/qemu-user-static:register
 multiarch/qemu-user-static:latest
 // openjdk
