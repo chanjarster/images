@@ -1,4 +1,3 @@
-envoyproxy/envoy-build-ubuntu:f4a881a1205e8e6db1a57162faf3df7aed88eae8@sha256:b10346fe2eee41733dbab0e02322c47a538bf3938d093a5daebad9699860b814
 !! 2026-06-04 below skip
 tonistiigi/binfmt
 !! 2026-06-03 below skip
