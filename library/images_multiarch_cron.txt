@@ -1,3 +1,15 @@
+// dify 1.16.0-rc.1
+langgenius/dify-api:1.16.0-rc1
+langgenius/dify-web:1.16.0-rc1
+langgenius/dify-agent-local-sandbox:1.16.0-rc1
+langgenius/dify-plugin-daemon:0.6.3-local
+langgenius/dify-agent-backend:1.16.0-rc1
+containers.intersystems.com/intersystems/iris-community:2025.3
+opensearchproject/opensearch:latest
+opensearchproject/opensearch-dashboards:latest
+opengauss/opengauss:7.0.0-RC1
+matrixorigin/matrixone:2.1.1
+// docker
 docker/dockerfile:1.7
 // node
 node:20-alpine
